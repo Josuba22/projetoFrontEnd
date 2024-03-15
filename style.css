@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* Estilos da sidebar */
+.sidebar {
+    background-color: #2c3e50; /* Cor de fundo */
+    color: #ecf0f1; /* Cor do texto */
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+    padding-top: 20px;
+}
+.logo {
+    text-align: center;
+    padding: 20px;
+}
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+.sidebar a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: inherit;
+    transition: background-color 0.3s;
+}
+.sidebar a:hover {
+    background-color: #34495e; /* Cor de destaque ao passar o mouse */
+}
+/* Estilos do botão "Área do Cliente" */
+.client-area-button {
+    background-color: #2980b9; /* Cor de fundo do botão */
+    color: #ffffff; /* Cor do texto do botão */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    margin-top: 20px;
+}
+.client-area-button:hover {
+    background-color: #1a5276; /* Cor de destaque ao passar o mouse */
+}
+
+/* Estilos do cabeçalho */
+header {
+    background-color: #2980b9; /* Cor de fundo do cabeçalho */
+    color: #ffffff; /* Cor do texto do cabeçalho */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos do conteúdo principal */
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #34495e; /* Cor do título principal */
+}
+
+p {
+    line-height: 1.6;
+}
